@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>HTML5 audio player</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="audio-image">
+			<img class="cover">
+		</div>	
+		<div id="audio-player">
+			<div id="audio-info">
+				<span class="artist"></span> - <span class="title"></span>
+			</div>
+			<input id="volume" type="range" min="0" max="10"value="4">
+			<br>
+			<div id="buttons">
+				<span>
+					<button id="prev"></button>
+					<button id="play"></button>
+					<button id="pause"></button>
+					<button id="stop"></button>
+					<button id="next"></button>
+				</span>
+			</div>
+			<div class="clearfix"></div>
+			<div id="tracker">
+				<div id="progressBar">
+					<span id="progress"></span>
+				</div>
+				<span id="duration"></span>
+			</div>
+			<div class="clearfix"></div>
+			<ul id="playlist" class="hidden">
+				<li cover="Tulips.jpg">Introduction</li>
+				<li cover="Koala.jpg">William Tower's on his deathbed (1906)</li>
+				<li cover="Chrysanthemum.jpg">Interview with Rose, the victim (1872)</li>
+				<li>Interview with William's family (1872)</li>
+				<li>Interview with William as a boy (1872)</li>
+				<li>Interview with the Magistrates (1872)</li>
+				<li>Credits</li>
+		</div>
+	</div>
+</body>
+
+</html>
