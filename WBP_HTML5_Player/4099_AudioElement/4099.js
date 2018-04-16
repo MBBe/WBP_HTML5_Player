@@ -1,4 +1,4 @@
-var yourAudio = PrisonerPage_noFlash.getElementById('yourAudio'),
+/*var yourAudio = PrisonerPage_noFlash.getElementById('yourAudio'),
     ctrl = PrisonerPage_noFlash.getElementById('audioControl');
 
 ctrl.onclick = function () {
@@ -13,4 +13,4 @@ ctrl.onclick = function () {
 
     // Prevent Default Action
     return false;
-};
+};*/
