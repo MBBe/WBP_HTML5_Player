@@ -166,14 +166,13 @@ table.transcript-data th{padding: 3px; font-weight: normal;}
 table.transcript-data td{padding: 3px;} 
 
 /*play audio controls*/
-/*div#player  {background: rgb(150,250,180); padding-top: 19px;}*/
-/*div#player  {background: url(http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg); no-repeat; padding-top: 19px;}
+div#player  {background: url(img/player-bg.jpg) no-repeat; padding-top: 19px;}
 div#player-col {margin-left: 260px;}
-div#play-container {background: url(http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/flashplayer-bg.gif); no-repeat; width: 304px; height: 31px; padding: 6px 8px; margin: 6px 0 25px 0; float: left;}
+div#play-container {background: url(http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg); no-repeat; width: 304px; height: 31px; padding: 6px 8px; margin: 6px 0 25px 0; float: left;}
 ul#controls {float:left; width: 239px; }
-li#play-pause a{height:40px; width:177px; background: url(http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/btn-play-play.gif); no-repeat; display:block; text-indent: -9999em;}
-li#play-stop  a{height:37px; width:177px; background: url(http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/btn-play-stop.gif); no-repeat; display:block; text-indent: -9999em;}
-li#play-fwd   a{height:38px; width:177px; background: url(http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/btn-play-stop.gif);  no-repeat; display:block; text-indent: -9999em;}
+li#play-pause a{height:40px; width:177px; background: url(img/btn-play-play.gif) no-repeat; display:block; text-indent: -9999em;}
+li#play-stop  a{height:37px; width:177px; background: url(img/btn-play-stop.gif) no-repeat; display:block; text-indent: -9999em;}
+li#play-fwd   a{height:38px; width:177px; background: url(img/btn-play-fwd.gif)  no-repeat; display:block; text-indent: -9999em;}
 li#play-back  a{height:35px; width:177px; background: url(img/btn-play-back.gif) no-repeat; display:block; text-indent: -9999em;}
 li#play-up, li#play-dn, li#play-mute {float: left;}
 li#play-up    a{height:38px; width: 71px; background: url(img/btn-play-up.gif)   no-repeat; display: block; text-indent: -9999em;}
@@ -187,21 +186,4 @@ ol#chapters li a{color: black; text-decoration: none;}
 ol#chapters li a:hover{background-color: yellow;}
 div#chapter-helper{font-weight: bold; color: white; width: 142px; float:left; padding: 24px 0 0 24px; line-height: 1.4em;}
 
-.highlight {background-color: #FDE93C !important;}*/
-
-#playlist,audio{background:#666;width:400px;padding:20px;}
-.active a{color:#5DB0E6;text-decoration:none;}
-li a{color:#eeeedd;background:#333;padding:5px;display:block;}
-li a:hover{text-decoration:none;}
-li p{color:#eeeedd;background:#333;padding:5px;display:block;}
-.column1 {
-  width:79%;
-  float: left;
-}
-
-
-.column2 {
-  background-color:#000000;
-  width:20%;
-  float: left;
-}
+.highlight {background-color: #FDE93C !important;}
