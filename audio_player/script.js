@@ -1,6 +1,4 @@
 //alert(typeof $);
-$("ul[role='tablist'] li").tabify();
-
 $.fn.tabify = function (options) {
     var settings = $.extend({}, $.fn.tabify.defaults, options);
 
@@ -29,3 +27,5 @@ $.fn.tabify = function (options) {
 $.fn.tabify.defaults = {
     'classForSelectedTab': 'selected'
 };
+
+$("ul[role='tablist'] li").tabify();
