@@ -1,0 +1,37 @@
+/*ol {
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}*/
+button {
+    background-color: #008484;
+    color: #fff;
+    border-radius: 0;
+    font-family: sans-serif;
+    width: 300px;
+
+}
+
+button:hover {
+    background-color: #fce45c;
+    color: #111;
+    border-radius: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/*#audio-tabs {
+    height: 200px;
+    width: 25%;
+    background-color: powderblue;
+
+}*/
+
+#audio-tabs {
+    width: 350px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
