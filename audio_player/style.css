@@ -4,11 +4,11 @@
 }*/
 button {
     background-color: #D7CBA0;
-    color: #000;
+    color: #5A1F00;
     border-radius: 0;
     font-family: sans-serif;
     width: 300px;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
     margin: 1px 2px;
 
@@ -24,6 +24,16 @@ button:hover {
 body {
     font-size: 16px;
     font-family: sans-serif;
+}
+
+/*ol {
+    list-style-position: inside;
+}*/
+
+ul {
+    list-style-type: none;
+    /*margin: 0;
+    padding: 0;*/
 }
 
 /*#audio-tabs {
@@ -46,12 +56,17 @@ body {
 }
 
 #player {
-    width: 375px;
-    height: 100px;
+    width: 340px;
+    height: 220px;
+    /*border: solid 5px #5A1F00;*/
+    padding: -12px;
+    margin: -12px;
     grid-column: 3;
     grid-row: 1 / span 2; /*part of the grid */
-    bac
+
 }
+
+
 
 /*#1 {
     grid-column: 1 / span 2;

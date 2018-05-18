@@ -28,6 +28,6 @@ $.fn.tabify.defaults = {
     'classForSelectedTab': 'selected'
 };
 
-$("ol[role='tablist'] li").tabify();
+$("ul[role='tablist'] li").tabify();
 
 
