@@ -1,0 +1,26 @@
+/* For device width smaller than 400px: */
+#audio-tabs {
+    background-color: #F1E7C0
+}
+
+
+/* For device width 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+#audio-tabs {
+    width: 540px;
+    height: 200px;
+    display: grid; /*part of the grid */
+    grid-gap: 110px;/*part of the grid*/
+    /*border: solid 3px #5A1F00;*/
+    /*border-color: #5A1F00;*/
+    padding: 25px;
+    /*margin: 25px;*/
+    background-image: url('http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg');
+    background-repeat: no-repeat;
+    /*background-size: contain;*/
+
+}
+}
+
+
+
