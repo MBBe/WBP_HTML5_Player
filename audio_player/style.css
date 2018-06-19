@@ -22,6 +22,7 @@ button:hover {
 }
 
 body {
+    width: 540px;
     font-size: 16px;
     font-family: sans-serif;
 }
@@ -48,22 +49,38 @@ ul {
     height: 200px;
     display: grid; /*part of the grid */
     grid-gap: 110px;/*part of the grid*/
-    border: solid 8px #5A1F00;
+    /*border: solid 3px #5A1F00;*/
     /*border-color: #5A1F00;*/
     padding: 25px;
-    margin: 25px;
-    background-image: url("http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg");
-}
+    /*margin: 25px;*/
+    background-image: url('http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg');
+    background-repeat: no-repeat;
+    /*background-size: contain;*/
 
+}
+/* original width: 540px and original height: 200px*/
+/*http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg*/
 #player {
     width: 340px;
     height: 220px;
     /*border: solid 5px #5A1F00;*/
     padding: -12px;
     margin: -12px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+    /*float: left;*/
+    /*original width 340px, height 220px*/
     grid-column: 3;
     grid-row: 1 / span 2; /*part of the grid */
 
+}
+
+#cover {
+    /*border: solid 5px orangered;*/
+    width: 584px;
+    height: 580px;
+    margin-left: 30px;
+    background-color: #F1E7C0
 }
 
 
