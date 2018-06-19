@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css"></link>
+    <title>Audio Tabs</title>
+</head>
+<body>
+<div id="cover">
+    <div id="audio-tabs">
+        <div id="player">
+            <ul role="tablist">
+                <li id="introduction-tab" class="tab" role="tab" aria-selected="true">
+                    <button class="btn-active">1. Introduction</button>
+                    <div class="row" aria-labelledby="introduction-tab" role="tabpanel">
+                        <!-- 1. Introduction-->
+                        <audio controls>
+                            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-1.mp3"
+                                    type="audio/mpeg">
+                            Your browser does not support the audio element
+                        </audio>
+                    </div>
+                </li>
+                <li id="william-Towers-tab" class="tab" role="tab" aria-selected="false">
+                    <button class="btn-active">2. William Towers on his deathbed (1906)</button>
+                    <div class="row" aria-labelledby="william-Towers-tab" role="tabpanel">
+                        <!--2. William Tower's on his deathbed (1906) -->
+                        <audio controls>
+                            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-2.mp3"
+                                    type="audio/mpeg">
+                            Your browser does not support the audio element
+                        </audio>
+                    </div>
+                </li>
+                <li id="rose-tab" class="tab" role="tab" aria-selected="false">
+                    <button class="btn-active">3. Interview with Rose, the victim (1872)</button>
+                    <div class="row" aria-labelledby="rose-tab" role="tabpanel">
+                        <!--3. Interview with Rose, the victim (1872)-->
+                        <audio controls>
+                            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-3.mp3"
+                                    type="audio/mpeg">
+                            Your browser does not support the audio element
+                        </audio>
+                    </div>
+                </li>
+                <li id="family-tab" class="selected tab" role="tab" aria-selected="true">
+                    <button class="btn-active">4. Interview with Williams family (1872)</button>
+                    <div class="row" aria-labelledby="family-tab" role="tabpanel">
+                        <!--4. Interview with Williams family (1872)-->
+                        <audio controls>
+                            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-4.mp3"
+                                    type="audio/mpeg">
+                            Your browser does not support the audio element
+                        </audio>
+                    </div>
+                </li>
+                <li id="young-tab" class="tab" role="tab" aria-selected="false">
+                    <button class="btn-active">5. Interview with William as a young boy (1872)</button>
+                    <div class="row" aria-labelledby="young-tab" role="tabpanel">
+                        <!--5. Interview with William as a young boy (1872)-->
+                        <audio controls>
+                            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-5.mp3"
+                                    type="audio/mpeg">
+                            Your browser does not support the audio element
+                        </audio>
+                    </div>
+                </li>
+                <li id="magistrates-tab" class="selected tab" role="tab" aria-selected="true">
+                    <button class="btn-active">6. Interview with the Magistrates (1872)</button></li>
+                    <div class="row" aria-labelledby="magistrates-tab" role="tabpanel">
+                        <!--6. Interview with the Magistrates (1872)-->
+                        <audio controls>
+                            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-6.mp3"
+                                    type="audio/mpeg">
+                            Your browser does not support the audio element
+                        </audio>
+                    </div>
+                <li id="credits-tab" class="selected tab" role="tab" aria-selected="true">
+                    <button class="btn-active">7. Credits</button>
+                    <div class="row" aria-labelledby="credits-tab" role="tabpanel">
+                        <!--7. Credits-->
+                        <audio controls>
+                            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-7.mp3"
+                                    type="audio/mpeg">
+                            Your browser does not support the audio element
+                        </audio>
+                        </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<!--<div class="row" aria-labelledby="introduction-tab" role="tabpanel">
+    <h3>1. Introduction</h3>
+    <audio controls>
+    <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-1.mp3"
+            type="audio/mpeg">
+    Your browser does not support the audio element
+    </audio>
+</div>
+
+<div class="row" aria-labelledby="william-Towers-tab" role="tabpanel">
+    <h3>2. William Tower's on his deathbed (1906)</h3>
+     <audio controls>
+    <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-2.mp3"
+            type="audio/mpeg">
+    Your browser does not support the audio element
+    </audio>
+</div>
+
+<div class="row" aria-labelledby="rose-tab" role="tabpanel">
+    <h3>3. Interview with Rose, the victim (1872)</h3>
+    <audio controls>
+    <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-3.mp3"
+            type="audio/mpeg">
+    Your browser does not support the audio element
+    </audio>
+</div>
+
+<div class="row" aria-labelledby="family-tab" role="tabpanel">
+    <h3>4. Interview with Williams family (1872)</h3>
+    <audio controls>
+        <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-4.mp3"
+                type="audio/mpeg">
+        Your browser does not support the audio element
+    </audio>
+</div>
+
+<div class="row" aria-labelledby="young-tab" role="tabpanel">
+    <h3>5. Interview with William as a young boy (1872)</h3>
+    <audio controls>
+        <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-5.mp3"
+                type="audio/mpeg">
+        Your browser does not support the audio element
+    </audio>
+</div>
+
+<div class="row" aria-labelledby="magistrates-tab" role="tabpanel">
+    <h3>6. Interview with the Magistrates (1872)</h3>
+        <audio controls>
+            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-6.mp3"
+                    type="audio/mpeg">
+            Your browser does not support the audio element
+        </audio>
+</div>
+
+<div class="row" aria-labelledby="credits-tab" role="tabpanel">
+    <h3>7. Credits</h3>
+    <audio controls>
+        <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-7.mp3"
+                type="audio/mpeg">
+        Your browser does not support the audio element
+    </audio>
+</div-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
