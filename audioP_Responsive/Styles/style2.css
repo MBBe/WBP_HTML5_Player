@@ -1,0 +1,18 @@
+body {
+    font-family: 'sans-serif';
+}
+.yellow {
+    background: #F1E7C0;
+}
+
+h2 {
+    font-size: 1.9em;
+    color: #411818;
+    margin-top: 1em;
+    font-family: trebuchet ms, verdana, sans-serif;
+}
+p {
+    line-height: 1.4em;
+    color: #411818;
+    font-size: 16px;
+}

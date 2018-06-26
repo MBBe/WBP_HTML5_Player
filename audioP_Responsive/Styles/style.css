@@ -1,25 +1,78 @@
 /* For device width smaller than 400px: */
-#audio-tabs {
+/*#audio-tabs {
     background-color: #F1E7C0
-}
+}*/
 
 
 /* For device width 400px and larger: */
 @media only screen and (min-device-width: 400px) {
 #audio-tabs {
-    width: 540px;
-    height: 200px;
-    display: grid; /*part of the grid */
-    grid-gap: 110px;/*part of the grid*/
+    /*width: 540px;
+    height: 200px;*/
+    /*display: grid;*/ /*part of the grid */
+    /*grid-gap: 110px;/*part of the grid*/
     /*border: solid 3px #5A1F00;*/
     /*border-color: #5A1F00;*/
-    padding: 25px;
+    /*padding: 25px;*/
     /*margin: 25px;*/
-    background-image: url('http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg');
-    background-repeat: no-repeat;
+    /*background-image: url('http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg');*/
+    /*background-repeat: no-repeat;*/
     /*background-size: contain;*/
 
 }
+    #cover {
+        /*border: solid 5px orangered;*/
+        width: 590px;
+        height: 580px;
+        margin-left: 30px;
+        background-color: #F1E7C0
+    }
+
+    button {
+        background-color: #D7CBA0;
+        color: #5A1F00;
+        border-radius: 0;
+        font-family: sans-serif;
+        width: 300px;
+        text-align: left;
+        cursor: pointer;
+        margin: 1px 2px;
+
+    }
+
+    button:hover {
+        background-color: #fce45c;
+        color: #111;
+        border-radius: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 20px;
+
+    }
+
+    /* original width: 540px and original height: 200px*/
+    /*http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg*/
+    #player {
+        width: 340px;
+        height: 220px;
+        /*border: solid 5px #5A1F00;*/
+        /*padding: 12px;*/
+        margin: -12px;
+        margin-left: 12px;
+        margin-top: -30px;
+        margin-bottom: -15px;
+        /*float: left;*/
+        /*original width 340px, height 220px*/
+        /*grid-column: 3;
+        grid-row: 1 / span 2; /*part of the grid */
+
+    }
+
+    #content[role="tablist"] {
+        margin: 0 auto;
+    }
 }
 
 
