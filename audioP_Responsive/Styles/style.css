@@ -73,6 +73,19 @@
     #content[role="tablist"] {
         margin: 0 auto;
     }
+
+    audio {
+        width: 100%;
+        min-width: 280px;
+    }
+
+    audio::-webkit-media-controls-timeline {
+        display: inline;
+    }
+
+    audio::-webkit-media-controls-current-time-display {
+        display: flex;
+    }
 }
 
 

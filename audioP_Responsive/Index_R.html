@@ -30,29 +30,46 @@
         <div class="col-md-6 yellow">
             <h2>Other ways to experience the play</h2>
             <p>You can listen to the whole play as one single MP3 file, or download it (2.1Mb) — just 'right-<br>
-                click' (or 'option-click' on a Mac) the link and choose the 'Save Link As...' option. Alternatively <br>
-                you can see a transcript.</p>
+                click' (or 'option-click' on a Mac) the link and choose the 'Save Link As...' option,.<br>
+                or you can click on the three menu dots on the audio playerAlternatively you can see a transcript.</p>
+            <ul role="tablist">
+                <li id="whole-play" class="tab" role="tab" aria-selected="true">
+                    <button type="button" class="btn btn-success">Listen to the whole play</button>
+                </li>
+                    <div class="row" aria-labelledby="whole-play" role="tabpanel">
+                        <audio controls>
+                            <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/wholeplay.mp3"
+                                    type="audio/mpeg">
+                            Your browser does not support the audio element
+                        </audio>
+                    </div>
+                <li id="transcript" class="tab" role="tab" aria-selected="true">
+
+                    <a href="http://www.nationalarchives.gov.uk/education/prisoner4099/listen-to-the-play/transcript-play.htm">Read the transcript</a>
+                </li>
+            </ul>
+
         </div>
         <div class="col-md-6 yellow">
             <div class="btn-group btn-group-toggle" data-toggle="buttons">
                 <ul role="tablist" class="nav flex-column">
+                    <!-- 1. Introduction-->
                     <li id="introduction-tab" class="nav-item selected-tab" role="tab" aria-selected="true">
                         <!--<a class="nav-link active" href="#">Active</a-->
                         <label class="btn btn-secondary active">
                             <input type="radio" name="options" id="option1" autocomplete="off" checked> 1.Introduction
                         </label>
+                    </li>
                         <div class="row" aria-labelledby="introduction-tab" role="tabpanel">
-                            <!-- 1. Introduction-->
                             <audio controls>
                                 <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-1.mp3"
                                         type="audio/mpeg">
                                 Your browser does not support the audio element
                             </audio>
                         </div>
-                    </li>
                     <li id="william-Towers-tab" class="nav-item selected-tab" role="tab" aria-selected="true">
                         <label class="btn btn-secondary">
-                            <input type="radio" name="options" id="option2" autocomplete="off"> 2. (1906)
+                            <input type="radio" name="options" id="option2" autocomplete="off"> 2. William Tower's on his deathbed (1906)
                         </label>
                         <div class="row" aria-labelledby="william-Towers-tab" role="tabpanel">
                             <!--2. William Tower's on his deathbed (1906) -->
@@ -65,7 +82,7 @@
                     </li>
                     <li id="rose-tab" class="nav-item selected-tab" role="tab" aria-selected="true">
                         <label class="btn btn-secondary">
-                            <input type="radio" name="options" id="option3" autocomplete="off"> 3. (1872)
+                            <input type="radio" name="options" id="option3" autocomplete="off"> 3. Interview with Rose, the victim (1872)
                         </label>
                         <div class="row" aria-labelledby="rose-tab" role="tabpanel">
                             <!--3. Interview with Rose, the victim (1872)-->
@@ -78,7 +95,7 @@
                     </li>
                     <li id="family-tab" class="selected-tab" role="tab" aria-selected="true">
                         <label class="btn btn-secondary">
-                            <input type="radio" name="options" id="option4" autocomplete="off"> Radio
+                            <input type="radio" name="options" id="option4" autocomplete="off"> 4. Interview with Williams family (1872)
                         </label>
                         <div class="row" aria-labelledby="family-tab" role="tabpanel">
                             <!--4. Interview with Williams family (1872)-->
@@ -91,7 +108,7 @@
                     </li>
                     <li id="young-tab" class="selected-tab" role="tab" aria-selected="true">
                         <label class="btn btn-secondary">
-                            <input type="radio" name="options" id="option5" autocomplete="off"> Radio
+                            <input type="radio" name="options" id="option5" autocomplete="off"> 5. Interview with William as a young boy (1872)
                         </label>
                         <div class="row" aria-labelledby="young-tab" role="tabpanel">
                             <!--5. Interview with William as a young boy (1872)-->
@@ -104,8 +121,8 @@
                     </li>
                     <li id="magistrates-tab" class="selected-tab" role="tab" aria-selected="true">
                         <label class="btn btn-secondary">
-                            <input type="radio" name="options" id="option6" autocomplete="off"> Radio
-                        </label>
+                            <input type="radio" name="options" id="option6" autocomplete="off"> 6. Interview with the Magistrates (1872)
+                        </label></li>
                         <div class="row" aria-labelledby="magistrates-tab" role="tabpanel">
                             <!--6. Interview with the Magistrates (1872)-->
                             <audio controls>
@@ -114,27 +131,27 @@
                                 Your browser does not support the audio element
                             </audio>
                         </div>
-                    </li>
+
                     <li id="credits-tab" class="selected-tab" role="tab" aria-selected="true">
                         <label class="btn btn-secondary">
-                            <input type="radio" name="options" id="option7" autocomplete="off"> Radio
-                        </label>
+                            <input type="radio" name="options" id="option7" autocomplete="off"> 7. Credits
+                        </label></li>
                         <div class="row" aria-labelledby="credits-tab" role="tabpanel">
-                            <!--7. Credits-->
+                            <!--7. Credits -->
                             <audio controls>
                                 <source src="http://www.nationalarchives.gov.uk/education/prisoner4099/mp3/play-7.mp3"
                                         type="audio/mpeg">
                                 Your browser does not support the audio element
                             </audio>
                         </div>
-                    </li>
                 </ul>
             </div>
         </div>
+
     </div>
     <div class="row">
         <div class="col-md-6 yellow">
-            
+
         </div>
     </div>
 </div>
