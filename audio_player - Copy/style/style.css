@@ -1,0 +1,83 @@
+/*ol {
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+    #008484
+}*/
+button {
+    background-color: #D7CBA0;
+    color: #5A1F00;
+    border-radius: 0;
+    font-family: sans-serif;
+    width: 300px;
+    text-align: left;
+    cursor: pointer;
+    margin: 1px 2px;
+
+
+}
+
+button:hover {
+    background-color: #fce45c;
+    color: #111;
+    border-radius: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/*ol {
+    list-style-position: inside;
+}*/
+
+ul {
+    list-style-type: none;
+    /*margin: 0;
+    padding: 0;*/
+}
+
+/*#audio-tabs {
+    height: 200px;
+    width: 25%;
+    background-color: powderblue;
+
+}*/
+
+#audio-tabs {
+    width: 540px;
+    height: 200px;
+    display: grid; /*part of the grid */
+    grid-gap: 110px;/*part of the grid*/
+    border: solid 8px #5A1F00;
+    /*border-color: #5A1F00;*/
+    padding: 25px;
+    margin: 25px;
+    background-image: url("http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg");
+}
+
+#player {
+    width: 340px;
+    height: 220px;
+    /*border: solid 5px #5A1F00;*/
+    padding: -12px;
+    margin: -12px;
+    grid-column: 3;
+    grid-row: 1 / span 2; /*part of the grid */
+
+}
+
+
+
+/*#1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    padding: 20px;
+}*/
+
+/*#5 {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+    padding: 20px;
+}*/
+
+/*http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg*/
