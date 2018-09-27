@@ -8,6 +8,7 @@
     height: 100%;*/
     background-color: #F1E7C0;
     padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -39,9 +40,22 @@ button:hover {
 ul {
     list-style-type: none;
     padding-left: 20px;
+    padding-top: 30px;
 
 }
 
+/*This is for the chapter helper text*/
+div#chapter-helper {
+    /*font-weight: bold;*/
+    font-family: sans-serif;
+    color: #5A1F00;
+    width: 359px;
+    height: 36px;
+    float: left;
+    text-align: center;
+    padding: 0 10px 0 0;
+    line-height: 1.4em;
+}
 
 
 /* For device width 400px and larger: */
