@@ -80,6 +80,7 @@ div#chapter-helper {
         /*margin: 0;
         padding: 0;*/
         margin-right: 40px;
+        padding-top: 0px;
     }
 
 
@@ -91,7 +92,6 @@ div#chapter-helper {
         padding: 25px;
         background-image: url('http://www.nationalarchives.gov.uk/education/prisoner4099/css/img/player-bg.jpg');
         background-repeat: no-repeat;
-        /*background-size: contain;*/
 
     }
 
@@ -99,23 +99,17 @@ div#chapter-helper {
     #player {
         width: 340px;
         height: 220px;
-        /*border: solid 5px #5A1F00;*/
         padding-right: -20px;
         margin: 50px;
         margin-left: 5px;
         margin-top: -30px;
         margin-bottom: -15px;
-        /*float: left;*/
-        /*original width 340px, height 220px*/
         grid-column: 3;
         grid-row: 1 / span 2; /*part of the grid */
 
     }
 
 
-    #content[role="tablist"] {
-     margin: 0 auto;
- }
     div#player-controls {
         display: block;
     }
